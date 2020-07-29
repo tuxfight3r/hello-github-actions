@@ -7,6 +7,12 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  SECRET1:
+    description: "test1"
+    default: default_secret1
+  SECRET2:
+    description: "test2"
+    default: default_secret2
 
 runs:
   using: "docker"
