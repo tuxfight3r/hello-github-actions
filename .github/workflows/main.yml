@@ -10,6 +10,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-          SECRET1: ${{secrets.TOP_SECRET1}}
-          SECRET2: ${{secrets.TOP_SECRET2}}
+          SECRET1: ${{secrets.TOP_SECRET_1}}
+          SECRET2: ${{secrets.TOP_SECRET_2}}
 
